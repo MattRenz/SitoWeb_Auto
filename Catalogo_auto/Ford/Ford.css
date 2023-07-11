@@ -1,0 +1,71 @@
+/* CONTENITORE NAV */
+
+body {
+    background-color: #B5B5B5;
+}
+
+a {
+    text-decoration: none;
+    color: #262020;
+}
+
+/* a:visited {
+    color: #B5B5B5;
+
+} */
+
+
+/* NAV MENU */
+
+header {
+    font-size: 1.4rem;
+    padding: 1.2rem;
+    background-color: #B5B5B5;
+    font-family: 'Electrolize', sans-serif;
+}
+
+header h5 {
+    color: #21211f;
+    font-size: 1.7rem;
+}
+
+header a:hover {
+    font-size: 1.5rem;
+    max-width: 60%;
+    padding: 2px;
+    background-color: #B5B5B5;
+    border-radius: 5px;
+
+}
+
+/* BOTTONE MENU */
+#button-nav {
+    background-color: #7D9696;
+    border: none;
+    padding: 0.250rem 3.5rem;
+    border-radius: 200px 40px;
+}
+
+.offcanvas-body {
+    background-color: #7D9696;
+    color: #21211f;
+}
+
+nav .offcanvas-header {
+    background-color: #7D9696;
+}
+
+nav .offcanvas-header:hover {
+    background-color: #B5B5B5;
+}
+
+nav .offcanvas-header button {
+    background-color: red;
+}
+
+
+/* LOGO PORSCHE */
+header a img {
+
+    width: 35px;
+}

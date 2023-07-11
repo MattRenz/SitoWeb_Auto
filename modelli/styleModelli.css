@@ -1,0 +1,294 @@
+#body {
+    background-color: #7D9696;
+}
+
+.FotoLogo {
+    width: 25%;
+}
+
+a{
+    text-decoration: none;
+    color: black !important;
+}
+
+/* a:visited{
+    color:#B5B5B5;
+} */
+
+
+
+/* NAV MENU */
+
+header {
+    font-size: 1.4rem;
+    padding: 1.2rem;
+    background-color: #B5B5B5;
+    font-family: 'Electrolize', sans-serif;
+}
+
+header h5 {
+    color: #21211f;
+    font-size: 1.7rem;
+}
+
+header a:hover {
+    font-size: 1.5rem;
+    max-width: 60%;
+    padding: 2px;
+    background-color: #B5B5B5;
+    border-radius: 5px;
+
+}
+
+/* BOTTONE MENU */
+#button-nav {
+    background-color: #7D9696;
+    border: none;
+    padding: 0.250rem 3.5rem;
+    border-radius: 200px 40px;
+}
+
+.offcanvas-body {
+    background-color: #7D9696;
+    color: #21211f;
+}
+
+nav .offcanvas-header {
+    background-color: #7D9696;
+}
+
+nav .offcanvas-header:hover {
+    background-color: #B5B5B5;
+}
+
+nav .offcanvas-header button {
+    background-color: red;
+}
+
+
+
+/* LOGO PORSCHE */
+header a img {
+
+    width: 35px;
+}
+
+
+@media (max-width: 1200px) {
+
+    button.navbar-toggler {
+        background-color: white;
+    }
+
+}
+
+
+/* 3 BLOCCHI  */
+
+/* PARAGRAFI CAROUSEL */
+
+
+div.container.text-center p {
+    font-size: 1.2rem;
+    color: black !important;
+    letter-spacing: 0.09rem;
+    font-family: 'Electrolize', sans-serif;
+    font-weight: 800;
+}
+
+div.carousel-caption p {
+    color:#4de3ff;
+    font-family: 'Electrolize', sans-serif;
+    font-weight: 500 !important;
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    background-color: rgba(38, 32, 32, 0.8);
+}
+
+div.blocchi h5 {
+    font-size: 1.9rem;
+    font-family: 'Patua One';
+    letter-spacing: 0.14rem;
+
+}
+
+main .row .container {
+    padding: 0.5rem;
+}
+
+@media (max-width: 600px) {
+
+    div.blocchi p {
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    main section .container-fluid p {
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+}
+
+@media (min-width: 601px) and (max-width:1500px) {
+    div.blocchi p {
+        margin-top: 0.5rem;
+        font-size: 1rem;
+        font-weight: 500;
+    }
+
+    main section .container-fluid p {
+        font-size: 0.8rem;
+        font-weight: 500;
+    }
+
+    main h5 {
+        font-size: 1.5rem;
+    }
+}
+
+main section .container-fluid {
+    background-color: #7D9696;
+    transition: all 1s ease-out 1ms;
+
+}
+
+main section .container-fluid:hover {
+    background-color: #B5B5B5;
+}
+
+/* TABLE */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border: none;
+    font-family: 'Electrolize', sans-serif;
+    background-color:#c2c2c2;
+    border-radius: 20px 40px;
+  }
+
+  /* CSS Titoli table */
+  .table thead th {
+    background-color:#dee2e6;
+    color: black;
+    padding: 12px;
+    text-align: left;
+    font-weight: bold;
+  }
+
+  /* CSS Celle */
+  .table tbody td {
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none !important;
+
+  }
+
+  /* CSS img Logo auto */
+  .table tbody td img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  .table tbody td img:hover {
+    transform: scale(1.1);
+  }
+
+  .table .highlight:hover {
+    background-color:#7D9696;
+  }
+
+
+/* BOTTONI FINALI */
+
+section.section-3 {
+    padding: 2rem;
+}
+
+.section-3 p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: black;
+    letter-spacing: 0.09rem;
+    font-family: 'Electrolize', sans-serif;
+}
+
+.section-3 h2 {
+    font-size: 2.3rem;
+    font-family: 'Patua One';
+    letter-spacing: 0.14rem;
+}
+
+.section-3 button {
+    padding: 0.400rem 12rem;
+    color: #262020;
+    background-color: #DBDBDB;
+    font-family: 'Rajdhani', sans-serif;
+    border-radius: 1rem;
+    font-weight: 800;
+    letter-spacing: 0.04rem;
+    font-size: 1.20rem;
+    border: none;
+    cursor: pointer;
+    transition: all 1s ease 8ms;
+    transform: translate(8px, 10px);
+    transform: scale(1.5);
+    transform: rotate(0deg)
+}
+
+.section-3 button:hover {
+    padding: 0.580rem 12.5rem;
+    color: #FFEC80;
+    background-color: #696D8C;
+}
+
+/* Schermi piccoli  */
+@media (max-width: 500px) {
+
+
+    .section-3 button {
+        font-size: 1rem;
+        padding: 0.200rem 6rem;
+
+    }
+
+    .section-3 button:hover {
+        padding: 0.300rem 8rem;
+        color: #FFEC80;
+    }
+
+}
+
+/* Schermi medi */
+@media (min-width: 501px) and (max-width: 1200px) {
+
+    .section-3 button {
+        font-size: 1rem;
+        padding: 0.200rem 4rem;
+    }
+
+    .section-3 button:hover {
+        padding: 0.300rem 5rem;
+        color: #FFEC80;
+    }
+
+}
+
+/* Schermi medi-gradi */
+@media (min-width: 1201px) and (max-width: 1800px) {
+    .section-3 button {
+        font-size: 1rem;
+        padding: 0.350rem 6.3rem;
+    }
+
+    .section-3 button:hover {
+        padding: 0.500rem 8rem;
+        color: #FFEC80;
+    }
+
+}

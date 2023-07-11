@@ -1,0 +1,478 @@
+/* CONTENITORE NAV */
+
+body {
+    background-color: #B5B5B5;
+}
+
+a {
+    text-decoration: none;
+    color: #262020;
+}
+
+/* a:visited {
+    color: #B5B5B5;
+
+} */
+
+
+/* NAV MENU */
+
+header {
+    font-size: 1.4rem;
+    padding: 1.2rem;
+    background-color: #B5B5B5;
+    font-family: 'Electrolize', sans-serif;
+}
+
+header h5 {
+    color: #21211f;
+    font-size: 1.7rem;
+}
+
+header a:hover {
+    font-size: 1.5rem;
+    max-width: 60%;
+    padding: 2px;
+    background-color: #B5B5B5;
+    border-radius: 5px;
+
+}
+
+/* BOTTONE MENU */
+#button-nav {
+    background-color: #7D9696;
+    border: none;
+    padding: 0.250rem 3.5rem;
+    border-radius: 200px 40px;
+}
+
+.offcanvas-body {
+    background-color: #7D9696;
+    color: #21211f;
+}
+
+nav .offcanvas-header {
+    background-color: #7D9696;
+}
+
+nav .offcanvas-header:hover {
+    background-color: #B5B5B5;
+}
+
+nav .offcanvas-header button {
+    background-color: red;
+}
+
+/* LOGO PORSCHE */
+header a img {
+
+    width: 35px;
+}
+
+/* CONTENITORE CAROUSEL */
+main {
+    width: 99.9%;
+}
+
+/* TITOLI CAROUSEL */
+main h5 {
+    font-size: 1.9rem;
+    font-family: 'Patua One';
+    letter-spacing: 0.14rem;
+
+}
+
+/* PARAGRAFI CAROUSEL */
+main p {
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #FFEC80;
+    letter-spacing: 0.09rem;
+
+}
+
+
+/* BOTTONI CARD */
+.container a {
+
+    padding: 0.400rem 12rem;
+    color: #262020;
+    background-color: #DBDBDB;
+    font-family: 'Rajdhani', sans-serif;
+    border-radius: 1rem;
+    font-weight: 800;
+    letter-spacing: 0.04rem;
+    font-size: 1.20rem;
+    border: none;
+    cursor: pointer;
+    transition: all 1s ease 8ms;
+    transform: translate(8px, 10px);
+    transform: scale(1.5);
+    transform: rotate(0deg)
+}
+
+.container a:hover {
+
+    padding: 0.580rem 12.5rem;
+    color: #FFEC80;
+    background-color: #696D8C;
+
+}
+
+div.card {
+    background-color: #E0D17B;
+    border-radius: 90px 50px;
+    transition: all 3s ease-in-out 8ms;
+    border: none;
+}
+
+div.card:hover {
+    background: linear-gradient(to right bottom, #E0D17B, #ffffff);
+}
+
+/* Schermi piccoli  */
+@media (max-width: 500px) {
+
+
+    .container a {
+        font-size: 1rem;
+        padding: 0.200rem 6rem;
+
+    }
+
+    .container a:hover {
+        padding: 0.300rem 8rem;
+        color: #FFEC80;
+    }
+
+}
+
+/* Schermi medi */
+@media (min-width: 501px) and (max-width: 1200px) {
+
+    .container a {
+        font-size: 1rem;
+        padding: 0.200rem 4rem;
+    }
+
+    .container a:hover {
+        padding: 0.300rem 5rem;
+        color: #FFEC80;
+    }
+
+}
+
+/* Schermi medi-gradi */
+@media (min-width: 1201px) and (max-width: 1800px) {
+    .container a {
+        font-size: 1rem;
+        padding: 0.350rem 6.3rem;
+    }
+
+    .container a:hover {
+        padding: 0.500rem 8rem;
+        color: #FFEC80;
+    }
+
+}
+
+
+/* RIGA 1 & 2*/
+section .row {
+
+    margin-top: 0.7rem;
+    margin-bottom: 0.7rem;
+}
+
+section .row h5 {
+    font-size: 1.50rem;
+    font-weight: bolder;
+    font-family: 'Audiowide', cursive;
+}
+
+section .row p {
+    font-family: 'Electrolize', sans-serif;
+    font-size: 1.50rem;
+}
+
+
+/* Schermi piccoli */
+@media (max-width: 500px) {
+
+    section .row p {
+        font-size: 1rem;
+    }
+
+    section .row h5 {
+        font-size: 1.50rem;
+    }
+
+    div.card {
+        border-radius: 20px;
+    }
+
+}
+
+@media (min-width: 743px) and (max-width:1400px) {
+
+    section .row p {
+        font-size: 1.20rem;
+    }
+
+    section .row h5 {
+        font-size: 1.50rem;
+    }
+
+    div.card {
+        border-radius: 20px;
+    }
+}
+
+/* COLORE CARD */
+section div.row {
+    background-color: #B5B5B5;
+    padding: 1%;
+}
+
+video {
+    width: 98%;
+    border-radius: 20px 120px;
+    border-color: #262020;
+}
+
+/* COLORI BMW-POERSCHE */
+.bmw {
+    background-color: #7D9696;
+    transition: all 1s ease-out 1ms;
+
+}
+
+.bmw:hover {
+    background-color: #B5B5B5;
+}
+
+main.prosche {
+    background-color: #7D9696;
+}
+
+main.prosche:hover {
+    background-color: #B5B5B5;
+}
+
+/* BOX TITOLO*/
+div.col-12 {
+    background-color: #696D8C;
+    border-radius: 900px 150px;
+    height: 30%;
+    margin: 0.80%;
+    width: 65%;
+    transition: all 2s ease 8ms;
+}
+
+div.col-12:hover {
+    border-radius: 150px 900px;
+    background-color: #B5B5B5;
+}
+
+/* TITOLO */
+div.col-12 h5 {
+    color: #FFEC80;
+    font-family: 'Audiowide', cursive;
+    font-size: 2.4rem;
+    margin-left: 2%;
+    margin-top: 0.5%;
+}
+
+
+@media (max-width: 600px) {
+    div.col-12 h5 {
+        font-size: 1.2rem;
+    }
+
+    div.col-12 {
+        width: 100%;
+    }
+}
+
+@media (min-width: 603px) and (max-width:1400px) {
+    div.col-12 h5 {
+        font-size: 1.6rem;
+    }
+
+    div.col-12 {
+        height: 15%;
+        width: 70%;
+    }
+}
+
+/* BOTTONI BOX VIDEO */
+
+div.mt-auto button {
+
+    border-radius: 900px 150px;
+    margin-left: 4%;
+    width: 90%;
+    background-color: #E0D17B;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.60rem;
+    border: none;
+    height: 70%;
+    margin-bottom: 6%;
+    transition: transform 0.6s ease;
+}
+
+div.mt-auto button:hover {
+    transform: translateY(-10px);
+    background-color: #FAE77A;
+}
+
+
+
+@media (max-width: 600px) {
+    div.mt-auto button {
+
+        width: 90%;
+        font-size: 1.1rem;
+        height: 50%;
+    }
+
+    div.mt-auto button:hover {
+        transform: translateY(-4px);
+        background-color: #FAE77A;
+    }
+
+}
+
+
+@media (min-width: 601px) and (max-width:1600px) {
+    div.mt-auto button {
+
+        width: 90%;
+        font-size: 1.40rem;
+        height: 60%;
+    }
+
+    div.mt-auto button:hover {
+        transform: translateY(-8px);
+        background-color: #FAE77A;
+    }
+}
+
+footer {
+    padding: 2rem;
+    background: linear-gradient(to right bottom #7D9696 #d2d2d2 #E0D17B);
+}
+
+/* FOOTER */
+
+/* BOX FORM */
+.contact-form {
+    background-color: #B5B5B5;
+    padding: 20px;
+    border-radius: 70px 20px;
+    width: 70%;
+    transition: 1.5s ease 8ms;
+}
+
+.contact-form:hover {
+    background-color: #d2d2d2;
+}
+
+/* LABEL BOX */
+.contact-form label {
+    color: black;
+    font-size: 1.25rem;
+}
+
+/* TITOLO BOX */
+.contact-form .heading {
+    margin-left: 1rem;
+    font-size: 1.9rem;
+    color: black;
+    font-family: 'Rajdhani', sans-serif;
+    margin-bottom: 12px;
+    font-weight: bold;
+    display: block;
+}
+
+.contact-form .heading2 {
+    color: black;
+    font-family: 'Rajdhani', sans-serif;
+    margin-bottom: 12px;
+    font-weight: bold;
+    display: block;
+    margin-left: 1rem;
+    font-size: 1.25rem;
+}
+
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: none;
+
+}
+
+/* LABEL */
+.contact-form input,
+.contact-form textarea {
+    padding: 8px;
+    border: none;
+    width: 100%;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #262020;
+    transform: scale(1.03);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* BOTTONE BOX */
+.contact-form button {
+
+    background-color: #696D8C;
+    color: #fff;
+    border: none;
+    font-family: 'Electrolize', sans-serif;
+    width: 50%;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: -1rem;
+}
+
+.contact-form button:hover {
+    background-color: #E0D17B;
+    color: black;
+    font-weight: 900;
+}
+
+
+@media (max-width: 600px) {
+
+    .contact-form {
+        width: 100%;
+    }
+
+}
+
+
+@media (min-width: 601px) and (max-width:1600px) {
+    .contact-form {
+        width: 100%;
+    }
+}
+
+
+/* FOOTER CONTATTI */
